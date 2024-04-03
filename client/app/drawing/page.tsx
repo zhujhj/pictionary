@@ -173,7 +173,7 @@ const page: FC<pageProps> = ({}) => {
         </form>
         <div className="mt-8">
           <h2 className="text-xl font-bold mb-4 text-black">Submitted Items</h2>
-          <div className='max-h-48 overflow-y-auto border border-black rounded-md'>
+          <div className='max-h-48 min-h-12 overflow-y-auto border border-black rounded-md'>
             <ul>
               {submittedItems.map((item, index) => (
                 <li key={index} className="mb-2 text-black">{item}</li>
